@@ -1,0 +1,112 @@
+header{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+nav{
+	font-weight: bold;
+	font-size: 14px;
+}
+nav .nav-link:active{
+	color: #a1ce59 !important;
+}
+nav .nav-link:focus{
+	color: #a1ce59 !important;
+}
+.responsive img{
+	width: 100%;
+	padding: 10% !important;
+}
+.bg-image{
+	height: 400px;
+	  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+.bg-text{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.slick-arrow{
+	display: none !important;
+}
+.regular-2{
+	width: 100%;
+}
+.regular-2 img {
+	width: 100%;
+
+}
+.regular-2 div{
+}
+@media (min-width: 48em) {
+	h1 {
+	  font-size: 2.441em;
+	}
+	h2 {
+		font-size: 1.953em;
+	}
+	h3 {
+		font-size: 1.563em;
+	}
+	h4 {
+		font-size: 1.25em;
+	}
+}
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) {
+	html,
+	body {
+		font-size: 16px !important;
+	}
+
+}
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) {
+	html,
+	body {
+		font-size: 18px !important;
+	}
+}
+
+@media (max-width: 1000px) {
+	h1 {
+	  font-size: 2em !important;
+	}
+	h2 {
+		font-size: 1.4em !important;
+	}
+	h3 {
+		font-size: 1.1em !important;
+	}
+	h4 {
+		font-size: 1.1em !important;
+	}
+	h5 {
+		font-size: 0.9em !important;
+	}
+}
+
+
+
+/* chi tiết san phẩm*/
+#myform {
+    text-align: center;
+    padding: 5px;
+    margin: 2%;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
